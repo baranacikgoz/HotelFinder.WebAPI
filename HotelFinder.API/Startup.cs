@@ -1,4 +1,4 @@
-using HotelFinder.Businness.Abstract;
+﻿using HotelFinder.Businness.Abstract;
 using HotelFinder.Businness.Concrete;
 using HotelFinder.DataAccess.Abstract;
 using HotelFinder.DataAccess.Concrete;
@@ -25,7 +25,24 @@ namespace HotelFinder.API
             services.AddControllers();
             services.AddSingleton<IHotelService, HotelService>();
             services.AddSingleton<IHotelRepository, HotelRepository>();
-            services.AddSwaggerDocument();
+            services.AddSwaggerDocument(
+                config =>
+                {
+                    config.PostProcess = (doc =>
+                    {
+                        doc.Info.Title = "Hotels API";
+                        doc.Info.Version = "1.0.0";
+                        doc.Info.Contact = new NSwag.OpenApiContact() {
+                            Name = "Baran Açıkgöz",
+                            Url = "https://github.com/baranacikgoz",
+                            Email = "baran-acikgoz@putlook.com"
+                        };
+                        {
+                         
+                    }
+                    });
+                    
+                });
             
         }
 

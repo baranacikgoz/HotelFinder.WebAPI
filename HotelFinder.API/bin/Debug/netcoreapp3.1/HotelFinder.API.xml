@@ -4,17 +4,6 @@
         <name>HotelFinder.API</name>
     </assembly>
     <members>
-        <member name="T:HotelFinder.API.Controllers.HotelsController">
-            <summary>
-            Hotel API's.
-            </summary>
-        </member>
-        <member name="M:HotelFinder.API.Controllers.HotelsController.#ctor(HotelFinder.Businness.Abstract.IHotelService)">
-            <summary>
-            Constructor.
-            </summary>
-            <param name="hotelService"></param>
-        </member>
         <member name="M:HotelFinder.API.Controllers.HotelsController.Get">
             <summary>
             Get All Hotels.
