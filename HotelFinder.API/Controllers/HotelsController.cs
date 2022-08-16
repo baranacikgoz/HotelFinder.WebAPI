@@ -21,7 +21,8 @@ namespace HotelFinder.API.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        public IActionResult Get()
+        [Route("[action]")]
+        public IActionResult GetAllHotels()
         {
             List<Hotel> hotels = _hotelService.GetAllHotels();
             return Ok(hotels); // 200 + hotels
@@ -32,8 +33,9 @@ namespace HotelFinder.API.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        [HttpGet]
+        [Route("[action]/{id}")]
+        public IActionResult GetHotelById(int id)
         {
             Hotel hotel = _hotelService.GetHotelById(id);
 
@@ -43,6 +45,25 @@ namespace HotelFinder.API.Controllers
             }
 
             return Ok(hotel); // 200.
+        }
+
+        /// <summary>
+        /// Get Hotel by name.
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("[action]/{name}")]
+        public IActionResult GetHotelByName(string name)
+        {
+            //Hotel hotel = _hotelService.GetHotelById(id);
+
+            //if (hotel == null)
+            //{
+            //    return NotFound();// 404. Not found.
+            //}
+
+            return Ok(); // 200.
         }
 
         /// <summary>
