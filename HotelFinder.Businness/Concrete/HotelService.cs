@@ -24,6 +24,11 @@ namespace HotelFinder.Businness.Concrete
         {
             return _hotelRepository.GetHotelById(id);
         }
+
+        public Hotel GetHotelByName(string name)
+        {
+            return _hotelRepository.GetHotelByName(name);
+        }
         public Hotel CreateHotel(Hotel hotel)
         {
             return _hotelRepository.CreateHotel(hotel);
@@ -43,7 +48,7 @@ namespace HotelFinder.Businness.Concrete
 
         public Hotel UpdateHotel(Hotel hotel)
         {
-            throw new NotImplementedException();
+            return _hotelRepository.UpdateHotel(hotel);
         }
     }
 }

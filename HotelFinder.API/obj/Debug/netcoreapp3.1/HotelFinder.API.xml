@@ -24,21 +24,21 @@
             <param name="name"></param>
             <returns></returns>
         </member>
-        <member name="M:HotelFinder.API.Controllers.HotelsController.Post(HotelFinder.Entities.Hotel)">
+        <member name="M:HotelFinder.API.Controllers.HotelsController.CreateHotel(HotelFinder.Entities.Hotel)">
             <summary>
             Post a new Hotel.
             </summary>
             <param name="hotel"></param>
             <returns></returns>
         </member>
-        <member name="M:HotelFinder.API.Controllers.HotelsController.Put(HotelFinder.Entities.Hotel)">
+        <member name="M:HotelFinder.API.Controllers.HotelsController.UpdateHotel(HotelFinder.Entities.Hotel)">
             <summary>
             Update an Hotel.
             </summary>
             <param name="hotel"></param>
             <returns></returns>
         </member>
-        <member name="M:HotelFinder.API.Controllers.HotelsController.Delete(System.Int32)">
+        <member name="M:HotelFinder.API.Controllers.HotelsController.DeleteHotelById(System.Int32)">
             <summary>
             Delete an Hotel by Id
             </summary>

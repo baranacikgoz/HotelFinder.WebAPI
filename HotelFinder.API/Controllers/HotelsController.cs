@@ -34,7 +34,7 @@ namespace HotelFinder.API.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet]
-        [Route("[action]/{id}")]
+        [Route("[action]")]
         public IActionResult GetHotelById(int id)
         {
             Hotel hotel = _hotelService.GetHotelById(id);
@@ -53,17 +53,17 @@ namespace HotelFinder.API.Controllers
         /// <param name="name"></param>
         /// <returns></returns>
         [HttpGet]
-        [Route("[action]/{name}")]
+        [Route("[action]")]
         public IActionResult GetHotelByName(string name)
         {
-            //Hotel hotel = _hotelService.GetHotelById(id);
+            Hotel hotel = _hotelService.GetHotelByName(name);
 
-            //if (hotel == null)
-            //{
-            //    return NotFound();// 404. Not found.
-            //}
+            if(hotel == null)
+            {
+                return NotFound();
+            }
 
-            return Ok(); // 200.
+            return Ok(hotel);
         }
 
         /// <summary>
@@ -72,9 +72,11 @@ namespace HotelFinder.API.Controllers
         /// <param name="hotel"></param>
         /// <returns></returns>
         [HttpPost]
-        public IActionResult Post([FromBody]Hotel hotel)
+        [Route("[action]")]
+        public IActionResult CreateHotel([FromBody] Hotel hotel)
         {
-            return CreatedAtAction("Get", new {id = hotel.Id}, hotel);
+            Hotel createdHotel = _hotelService.CreateHotel(hotel);
+            return CreatedAtAction(nameof(GetHotelById), new {id = createdHotel.Id}, createdHotel);
         }
 
         /// <summary>
@@ -83,7 +85,8 @@ namespace HotelFinder.API.Controllers
         /// <param name="hotel"></param>
         /// <returns></returns>
         [HttpPut]
-        public IActionResult Put([FromBody] Hotel hotel)
+        [Route("[action]")]
+        public IActionResult UpdateHotel([FromBody] Hotel hotel)
         {
             Hotel hotelToUpdate = _hotelService.GetHotelById(hotel.Id);
 
@@ -101,8 +104,9 @@ namespace HotelFinder.API.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        [HttpDelete]
+        [Route("[action]")]
+        public IActionResult DeleteHotelById(int id)
         {
             Hotel hotelToDelete = _hotelService.GetHotelById(id);
 

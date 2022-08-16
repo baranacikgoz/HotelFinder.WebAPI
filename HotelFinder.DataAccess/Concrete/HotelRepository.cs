@@ -21,6 +21,12 @@ namespace HotelFinder.DataAccess.Concrete
             using var _hotelDbContext = new HotelDbContext();
             return _hotelDbContext.Hotels.Find(id);
         }
+
+        public Hotel GetHotelByName(string name)
+        {
+            using var _hotelDbContext = new HotelDbContext();
+            return _hotelDbContext.Hotels.FirstOrDefault(hotel=> hotel.Name.ToLower().Equals(name.ToLower()));
+        }
         public Hotel CreateHotel(Hotel hotel)
         {
             using var _hotelDbContext = new HotelDbContext();
@@ -45,5 +51,7 @@ namespace HotelFinder.DataAccess.Concrete
             _hotelDbContext.SaveChanges();
             return hotel;
         }
+
+        
     }
 }
