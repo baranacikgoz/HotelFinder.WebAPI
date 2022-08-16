@@ -8,3 +8,13 @@ C:\Users\baran\Software\Self\HotelFinder\HotelFinder.Entities\obj\Debug\netcorea
 C:\Users\baran\Software\Self\HotelFinder\HotelFinder.Entities\obj\Debug\netcoreapp3.1\HotelFinder.Entities.csproj.CoreCompileInputs.cache
 C:\Users\baran\Software\Self\HotelFinder\HotelFinder.Entities\obj\Debug\netcoreapp3.1\HotelFinder.Entities.dll
 C:\Users\baran\Software\Self\HotelFinder\HotelFinder.Entities\obj\Debug\netcoreapp3.1\HotelFinder.Entities.pdb
+C:\Users\baran\Software\Self\HotelFinder.WebAPI\HotelFinder.Entities\bin\Debug\netcoreapp3.1\HotelFinder.Entities.deps.json
+C:\Users\baran\Software\Self\HotelFinder.WebAPI\HotelFinder.Entities\bin\Debug\netcoreapp3.1\HotelFinder.Entities.dll
+C:\Users\baran\Software\Self\HotelFinder.WebAPI\HotelFinder.Entities\bin\Debug\netcoreapp3.1\HotelFinder.Entities.pdb
+C:\Users\baran\Software\Self\HotelFinder.WebAPI\HotelFinder.Entities\obj\Debug\netcoreapp3.1\HotelFinder.Entities.csproj.AssemblyReference.cache
+C:\Users\baran\Software\Self\HotelFinder.WebAPI\HotelFinder.Entities\obj\Debug\netcoreapp3.1\HotelFinder.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\baran\Software\Self\HotelFinder.WebAPI\HotelFinder.Entities\obj\Debug\netcoreapp3.1\HotelFinder.Entities.AssemblyInfoInputs.cache
+C:\Users\baran\Software\Self\HotelFinder.WebAPI\HotelFinder.Entities\obj\Debug\netcoreapp3.1\HotelFinder.Entities.AssemblyInfo.cs
+C:\Users\baran\Software\Self\HotelFinder.WebAPI\HotelFinder.Entities\obj\Debug\netcoreapp3.1\HotelFinder.Entities.csproj.CoreCompileInputs.cache
+C:\Users\baran\Software\Self\HotelFinder.WebAPI\HotelFinder.Entities\obj\Debug\netcoreapp3.1\HotelFinder.Entities.dll
+C:\Users\baran\Software\Self\HotelFinder.WebAPI\HotelFinder.Entities\obj\Debug\netcoreapp3.1\HotelFinder.Entities.pdb

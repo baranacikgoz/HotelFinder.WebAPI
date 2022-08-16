@@ -928,11 +928,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\baran\\Software\\Self\\HotelFinder\\HotelFinder.DataAccess\\HotelFinder.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\baran\\Software\\Self\\HotelFinder.WebAPI\\HotelFinder.DataAccess\\HotelFinder.DataAccess.csproj",
       "projectName": "HotelFinder.DataAccess",
-      "projectPath": "C:\\Users\\baran\\Software\\Self\\HotelFinder\\HotelFinder.DataAccess\\HotelFinder.DataAccess.csproj",
+      "projectPath": "C:\\Users\\baran\\Software\\Self\\HotelFinder.WebAPI\\HotelFinder.DataAccess\\HotelFinder.DataAccess.csproj",
       "packagesPath": "C:\\Users\\baran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\baran\\Software\\Self\\HotelFinder\\HotelFinder.DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\baran\\Software\\Self\\HotelFinder.WebAPI\\HotelFinder.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\baran\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -949,8 +949,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\baran\\Software\\Self\\HotelFinder\\HotelFinder.Entities\\HotelFinder.Entities.csproj": {
-              "projectPath": "C:\\Users\\baran\\Software\\Self\\HotelFinder\\HotelFinder.Entities\\HotelFinder.Entities.csproj"
+            "C:\\Users\\baran\\Software\\Self\\HotelFinder.WebAPI\\HotelFinder.Entities\\HotelFinder.Entities.csproj": {
+              "projectPath": "C:\\Users\\baran\\Software\\Self\\HotelFinder.WebAPI\\HotelFinder.Entities\\HotelFinder.Entities.csproj"
             }
           }
         }

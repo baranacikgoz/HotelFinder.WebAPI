@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YQYf8FebdLpSS5kFSK9mELBPbQxuNdaf6NjfCwPPRsHN7hIJn16mNMYwiOCx266BLOm8wEjAeysGGWojrq05Nw==",
+  "dgSpecHash": "Aytvb/ISMQDyKGFdkdVzWwmM+V5rSP4W8D5PBwH/fxLR9LtW8eiihdoEwAxVqD+e8J4UYyTyLTUgDyXYZePI0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\baran\\Software\\Self\\HotelFinder\\HotelFinder.DataAccess\\HotelFinder.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\baran\\Software\\Self\\HotelFinder.WebAPI\\HotelFinder.DataAccess\\HotelFinder.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\baran\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\baran\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

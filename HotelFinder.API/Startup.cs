@@ -25,6 +25,7 @@ namespace HotelFinder.API
             services.AddControllers();
             services.AddSingleton<IHotelService, HotelService>();
             services.AddSingleton<IHotelRepository, HotelRepository>();
+            services.AddSwaggerDocument();
             
         }
 
@@ -41,6 +42,10 @@ namespace HotelFinder.API
             }
 
             app.UseRouting();
+
+            app.UseOpenApi();
+
+            app.UseSwaggerUi3();
 
             app.UseEndpoints(endpoints =>
             {

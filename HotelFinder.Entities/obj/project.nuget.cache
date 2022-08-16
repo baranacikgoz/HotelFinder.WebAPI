@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cYCGgrMM4dT9yev72HVpXMFiSMsdHC+DwXOBRcd5peP7rKkn/aCYavVTOwSTmt2clU9XUEnUtpkYsqWT8PACqQ==",
+  "dgSpecHash": "1RitJJdglsU05nVFnm8QUmCFT1JP7vOlp5ODxovpNB6hU0d7QqVURXaCdC05OeKXz2itsQj+cGp4qdnNso/Nlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\baran\\Software\\Self\\HotelFinder\\HotelFinder.Entities\\HotelFinder.Entities.csproj",
+  "projectFilePath": "C:\\Users\\baran\\Software\\Self\\HotelFinder.WebAPI\\HotelFinder.Entities\\HotelFinder.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

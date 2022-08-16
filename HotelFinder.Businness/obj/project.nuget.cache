@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gdVaon5PEPjlo84tKC+0ZkT1L2kZ1t2lRYHJ72zgiqTGA41g5hF4RACdyFktFcelq3FinVUB84pmXpO8Q5wyDA==",
+  "dgSpecHash": "buHExYO6sJMYYrGoZAs1f9uM6tWFfk6+QVTf3nre02oWxZCTmoFXsEp2ZYlFMRY7Wd/XtzjCJvaO5Vcghb97pA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\baran\\Software\\Self\\HotelFinder\\HotelFinder.Businness\\HotelFinder.Businness.csproj",
+  "projectFilePath": "C:\\Users\\baran\\Software\\Self\\HotelFinder.WebAPI\\HotelFinder.Businness\\HotelFinder.Businness.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\baran\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\baran\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
