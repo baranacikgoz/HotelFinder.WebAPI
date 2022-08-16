@@ -27,5 +27,23 @@ namespace HotelFinder.API.Controllers
         {
             return _hotelService.GetHotelById(id);
         }
+
+        [HttpPost]
+        public Hotel Post([FromBody]Hotel hotel)
+        {
+            return _hotelService.CreateHotel(hotel);
+        }
+
+        [HttpPut]
+        public Hotel Put([FromBody] Hotel hotel)
+        {
+            return _hotelService.UpdateHotel(hotel);
+        }
+
+        [HttpDelete("{id}")]
+        public Hotel Delete(int id)
+        {
+            return _hotelService.DeleteHotel(id);
+        }
     }
 }
